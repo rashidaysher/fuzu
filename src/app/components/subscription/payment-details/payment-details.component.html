@@ -1,0 +1,114 @@
+
+<!-- end of nav -->
+
+<body >
+  <div class="container" style="padding-left: 70px;" >
+    <div class="row">
+      
+      <div class="col-sm-6">
+      <div class="card" style="width: 40rem;padding-left: 70px;  ">
+        <div class="card-body">
+            <div class="col align-self-start">
+                <div class="form container-fluid">
+                    <form class="row g-3 " >
+                        <div class="col-md-6">
+                          <label for="inputName" class="form-label" style="border: none;">Company Name</label>
+                          <input type="text" class="form-control" id="inputEmail4" style="border: none;">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="address" class="form-control" id="inputEmail4"style="border: none;">
+                          </div>
+                          <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputEmail4" style="border: none;">
+                          </div>
+                        <div class="col-md-6">
+                          <label for="inputZip" class="form-label">Postal/zip code</label>
+                          <input type="text" class="form-control" id="inputPassword4" style="border: none;">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCountry" class="form-label">Country</label>
+                            <input type="text" class="form-control" id="inputEmail4" style="border: none;">
+                          </div>
+                        <div class="col-6">
+                          <label for="inputVat" class="form-label">VAT</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="" style="border: none;">
+                        </div> <br>
+                        <p>Payment Method</p>
+                        
+                        <div class="form-group">
+                            <label class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" value="option1" checked="checked" (change)="togglePayment()">
+                            <span class="form-check-label"> Card</span>
+                        </label>
+                        <label class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" (change)="togglePayment()"  value="option2"  >
+                            <span class="form-check-label">  mpesa </span>
+ 
+                        </label>
+                    </div>
+                         <div *ngIf="card">
+                           <app-card-payment class="row"></app-card-payment>
+                         </div> 
+                         <div *ngIf="mpesa">
+                           <app-mpesa class="row"></app-mpesa>
+                         </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Save these details for future use
+                            </label>
+                          </div>
+                        </div>
+                        
+                      </form>
+                    </div>
+              </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="col align-self-start" >
+        <div class="card" style="width: 20rem;">
+
+          <span style="position: relative; left: 100px;">
+            <img class="card-img-top" src="https://png.pngtree.com/png-vector/20200718/ourlarge/pngtree-atm-card-banking-flat-icon-png-image_2307566.jpg" alt="Card image cap" style="height: 70px; width: 50px; padding-top: 10px;">
+          </span>
+            <div class="card-body">
+              <h5 class="card-text" style="text-align: center;">Your payment is 100% secure using 128 bits.</h5>
+            </div>
+          </div> <br><br>
+          <div class="card" style="width: 20rem; padding-top: 35px;" >
+          
+            <div class="card-body">
+              <h5 class="card-title">Order Summary</h5>
+              <h6 class="card-title">Startup Plan (change)</h6>
+             
+            </div>
+            <p>Total Active Employees    46</p>
+            <p>Payment Plan  $4.99</p> <hr>
+            <p style="color: #004763;">Total VAT Inc. KES 23,642.62</p>
+            <div class="card-body">
+              <a class="card-link btn" style="background-color: #004763; color: #ffffff;" (click)="confirmPayment()">Confirm Order</a>
+             
+            </div>
+          </div>
+      </div>
+      </div>
+      
+  </div>
+</body>
+
+  
+
+ 
+
+  
+
+
+
+      
+
+  

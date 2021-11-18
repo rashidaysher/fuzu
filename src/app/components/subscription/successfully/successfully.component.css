@@ -1,0 +1,23 @@
+.body{
+    padding-top: 300px;
+    padding-left: 500px;
+   
+}
+.card{
+    padding-left: 100px;
+    background-color: #F1F1F0;
+    height: 30rem;
+}
+
+h1,h5, p, h6{
+    text-align: center;
+}
+
+#a{
+    border: #004763; 
+    position: relative; 
+    left: 200px;
+    padding-right: 50px;
+    background-color: #004763;
+    color: #ffff;
+}

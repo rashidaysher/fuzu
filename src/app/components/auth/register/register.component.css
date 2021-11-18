@@ -1,0 +1,28 @@
+.body{
+    background-color: #FDF3EE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 100vh;
+  
+}
+
+.card{
+    background-color: #FDF3EE;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+label{
+    color: #004763;
+    font-size:medium;
+}
+
+
+.container{
+background-color: #FDF3EE;
+padding-top: 50px;
+padding-right: 100px;
+}
+

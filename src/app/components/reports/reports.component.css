@@ -1,0 +1,25 @@
+.btn-outline {
+    color: #004763;
+    background-color: #ffffff;
+    border-color: #004763;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    width: 200px;
+}
+
+#download-report {
+    background: #004763;
+    color: #ffffff;
+    border-color: #004763;
+    width: 200px
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+    background: #004763;
+    color: #ffffff;
+    border-color: #004763;
+    
+}

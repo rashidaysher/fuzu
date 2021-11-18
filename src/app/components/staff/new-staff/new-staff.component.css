@@ -1,0 +1,245 @@
+.button-active {
+    background-color: #004763;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button {
+    background-color: #F1F1F0;
+    color: #004763;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+    width: 186px;
+    height: 37px;
+    border-radius: 2px;
+}
+
+.button1 {
+    padding: 5px 37px;
+    width: 186px;
+}
+
+.top-section {
+    margin-top: 50px;
+    position: relative;
+    left: 253px;
+}
+
+
+.input-text {
+    position: absolute;
+    left: 260px;
+    margin-top: 13px;
+}
+
+.upload-doc {
+    position: absolute;
+    left: 408px;
+    margin-top: 13px;
+}
+
+.title-rows{
+color: #004763;
+text-align: left;
+font-size: large;
+margin-bottom: 20px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  
+  body {
+    font-size: 13px;
+    margin: 0; }
+  
+  input, textarea, select, button {
+    font-size: 13px; }
+  
+  p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0; }
+  
+  img {
+    max-width: 100%; }
+  
+  ul {
+    padding-left: 0;
+    margin-bottom: 0; }
+  
+  a:hover {
+    text-decoration: none; }
+  
+  :focus {
+    outline: none; }
+  
+  .wrapper {
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center; }
+  
+  .inner {
+    max-width: 850px;
+    margin: auto;
+    background: #fff;
+    padding: 15px; }
+  
+  form {
+    padding: 62px 65px 64px; }
+  
+  h3 {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #6d5555;
+    letter-spacing: 3px; }
+  
+  .form-group {
+    display: -webkit-box;
+    position: relative;
+    margin-right: -36px;
+    left: -314px;
+    bottom: 24px; }
+    .form-group .form-wrapper {
+      width: 50%; }
+      .form-group .form-wrapper {
+        margin-right: -147px; }
+  
+  .form-wrapper {
+    margin-bottom: 27px; }
+    .form-wrapper label {
+      margin-bottom: 10px;
+      display: block; }
+
+
+  
+  .form-holder {
+    position: relative;
+    width: 113%; }
+    .form-holder i {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 14px;
+      font-size: 17px;
+      color: #999; }
+  
+  .form-control {
+    border: 1px solid #e6e6e6;
+    display: block;
+    width: 43%;
+    height: 42px;
+    padding: 0 20px 0 46px;
+    color: #999;
+    font-size: 15px; }
+    .form-control::-webkit-input-placeholder {
+      font-size: 17px;
+      transform: translateY(5px);
+      color: #999; }
+    .form-control::-moz-placeholder {
+      font-size: 17px;
+      transform: translateY(5px);
+      color: #999; }
+    .form-control:-ms-input-placeholder {
+      font-size: 17px;
+      transform: translateY(5px);
+      color: #999; }
+    .form-control:-moz-placeholder {
+      font-size: 17px;
+      transform: translateY(5px);
+      color: #999; }
+  
+  .select::after {
+    content: "\f2f9";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12px;
+    font-size: 15px;
+    color: #999; }
+  
+  select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    padding-left: 20px; }
+    select option[value=""][disabled] {
+      display: none; }
+  
+  
+  
+  .form-end {
+    display: flex;
+    align-items: center;
+    margin-top: 13px; }
+  
+  .button-holder {
+    width: 127%; 
+    background-color: #004763;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: relative;
+    left: 208px;
+    padding: 5px 40px;
+    width: 190px;
+    border-radius: 2px;
+    }
+  
+  
+  @media (max-width: 767px) {
+    .wrapper {
+      display: block; }
+  
+    form {
+      padding: 0;
+      border: none; }
+  
+    .form-group {
+      display: block; }
+      .form-group .form-wrapper {
+        width: 100%; }
+        .form-group .form-wrapper:first-child {
+          margin-right: 0px; }
+  
+    .form-end {
+      display: block; }
+  
+    .checkbox, .button-holder {
+      width: 100%; }
+  
+    .inner {
+      padding: 30px 15px; }
+  
+    button {
+      float: none;
+      margin-top: 30px; }
+  
+    h3 {
+      font-size: 30px;
+      margin-bottom: 40px; } }
+  
+  
+  

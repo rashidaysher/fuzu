@@ -1,0 +1,18 @@
+select {
+    width: 70px;
+    height: 30px;
+}
+
+#download-report {
+    background: #004763;
+    color: #ffffff;
+    border-color: #004763;
+}
+
+.blue {
+    color: #004763
+}
+
+.bolden {
+    font-weight: bold;
+}

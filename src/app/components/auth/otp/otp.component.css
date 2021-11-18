@@ -1,0 +1,17 @@
+.container{
+    background-color:#FDF3EE;
+    max-width: inherit;
+    padding-top: 100px;
+    padding-bottom: 190px;
+}
+
+.card{
+    color:#004763;
+    justify-content:center;
+    margin: 0 auto;
+    float: none;
+    height: 400px;
+    width:500px;
+    background-color:#FDF3EE;
+
+}

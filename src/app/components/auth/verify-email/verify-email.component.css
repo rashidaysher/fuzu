@@ -1,0 +1,48 @@
+.container{
+        background-color:#FDF3EE;
+        max-width: inherit;
+        padding-top: 10px;
+        padding-bottom:30px
+
+}
+.card {
+  width: 450px;
+  height: 450px;
+  margin: 100px auto;
+}
+
+
+.notifications__item {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 100%;
+  height: 500px;
+  padding: 0px;
+  background-color: #FDF3EE;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.notifications__item__content { width: calc( 100% - 200px ); }
+.notifications__item__title  {position: center;}
+.notifications__item__message { display: inline-block; }
+
+.notifications__item__title {
+  letter-spacing: 5px;
+  font-family: 'atvice', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  color:#004763;
+}
+
+.notifications__item__message {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #004763;}
+
+
+
+
+

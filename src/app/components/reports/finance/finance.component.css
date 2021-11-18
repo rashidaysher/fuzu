@@ -1,0 +1,25 @@
+#download-report {
+    background: #004763;
+    color: #ffffff;
+    border-color: #004763;
+    
+}
+
+.p-3{
+    position: relative;
+    right: 278px;
+    padding: 1rem !important;
+}
+.blue {
+    color: #004763
+}
+
+select {
+    width: 70px;
+    height: 30px;
+}
+
+.bolden {
+    font-weight: bold;
+}
+

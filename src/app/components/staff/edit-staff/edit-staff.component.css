@@ -1,0 +1,116 @@
+.button-active {
+    background-color: #004763;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+    width: 11rem;
+    border-radius: 2px;
+  }
+
+  .button {
+    background-color: #F1F1F0;
+    color: #004763;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+    width: 186px;
+    height: 37px;
+    border-radius: 2px;
+  }
+  
+  .button1 {
+      padding: 5px 40px;
+      width: 190px;
+      border-radius: 2px;
+    }
+
+  .button2 {
+    padding: 5px 40px;
+    width: 186px;
+    border-radius: 2px;
+    position: relative;
+    bottom: -3px;
+  }
+
+  .top-section{
+    margin-top: 50px;
+    position: relative;
+    left: 235px;
+  }
+
+  .card-section{
+      margin-top: 28px;
+      position: relative;
+      left: 240px;
+  }
+  
+  #example1 {
+  margin: 2em;
+  position: relative;
+  left: 212px;
+  padding: 10px;
+  box-shadow: 0px 1px 2px 2px #cccccc;
+  width: 1551px;
+}
+
+.title-rows{
+  color: #004763;
+
+}
+
+#example2 {
+  margin: 2em;
+  position: relative;
+  bottom: 10px;
+  left: 217px;
+  padding: 7px;
+  width: 14%;
+}
+
+td {
+  width: 182px;
+  padding: 7px;
+}
+
+#example3 {
+  margin: 2em;
+  position: relative;
+  bottom: 272px;
+  left: 521px;
+  padding: 10px;
+  width: 13%;
+}
+
+#example4 {
+  margin: 2em;
+  position: relative;
+  bottom: 542px;
+  left: 857px;
+  padding: 10px;
+  width: 16%;
+}
+
+#example5 {
+  margin: 2em;
+  position: relative;
+  bottom: 770px;
+  left: 1099px;
+  padding: 10px;
+  width: 112%;
+}
+
+.bottom-section{
+  margin-top: -730px;
+  position: absolute;
+  left: 482px;
+}

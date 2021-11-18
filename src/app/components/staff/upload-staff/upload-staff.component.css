@@ -1,0 +1,110 @@
+.button-active {
+    background-color: #004763;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #F1F1F0;
+    color: #004763;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+    width: 186px;
+    height: 37px;
+}
+
+.button1 {
+    padding: 5px 37px;
+    width: 186px;
+}
+
+.top-section {
+    margin-top: 50px;
+    position: relative;
+    left: 253px;
+}
+
+
+.input-text {
+    position: absolute;
+    left: 259px;
+    margin-top: 13px;
+}
+
+.upload-doc {
+    position: absolute;
+    left: 394px;
+    margin-top: 13px;
+}
+.download-text {
+    position: absolute;
+    left: 258px;
+    margin-top: 51px;
+}
+.download-button {
+    color: #F1F1F0;
+    background-color: #004763;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 4px 7px;
+    cursor: pointer;
+    width: 127px;
+    height: 29px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 113px;
+    left: 259px;
+}
+
+.btn {
+    border: 1.5px solid gray;
+    color: #000000;
+    width: 326px;
+    background-color: white;
+    padding: 1px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.btn-1 {
+    background-color: #FFFFFF;
+    color: #004763;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 0px;
+    cursor: pointer;
+    width: 127px;
+    height: 35px;
+    position: fixed;
+    border-radius: 3px;
+    border-color: #004763;
+}

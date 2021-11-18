@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<app-sidebar></app-sidebar>
+<div class="new" >
+	<h3 class="plan">Pick a plan that is right for your business</h3>
+<ul class="nav nav-pills mb-3 mt-3" id="pills-tab" role="tablist">
+	<li class="nav-item me-3" role="presentation" >
+		<button class="btn rounded-0 btn-outline active" id="pills-human-resource-tab" data-bs-toggle="pill" data-bs-target="#select-plan" type="button" role="tab" aria-controls="pills-human-resource" aria-selected="true" style="padding-right: 20px;" > <span style="padding-right: 50px;"> Select Plan</span>   </button>
+	</li>
+	<li class="nav-item me-3" role="presentation">
+		<button class="btn rounded-0 btn-outline" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#payment-details" type="button" role="tab" aria-controls="pills-finance" aria-selected="false" ><span style="padding-right: 50px;"> Payment Details</span></button>
+	</li>
+	<li class="nav-item me-3" role="presentation">
+		<button #complete_payment class="btn rounded-0 btn-outline" id="toggle_payment" data-bs-toggle="pill" data-bs-target="#confirm-payment" type="button" role="tab" aria-controls="pills-finance" aria-selected="false"><span style="padding-right: 50px;"> Confirm Payment</span></button>
+	</li>
+</ul>
+ <br>
+</div>
+<div class="tab-content" id="myTabContent">
+	<div class="tab-pane fade show active" id="select-plan" role="tabpanel" aria-labelledby="home-tab">
+		<app-select-plan></app-select-plan>
+	</div>
+	<div class="tab-pane fade" id="payment-details" role="tabpanel" aria-labelledby="profile-tab">
+		<app-payment-details (confirmOrder)="toggle_view($event)" ></app-payment-details>
+	</div>
+	<div class="tab-pane fade" id="confirm-payment" role="tabpanel" aria-labelledby="profile-tab">
+		<app-confirm-payment></app-confirm-payment>
+	</div>
+</div>
+
+
+
