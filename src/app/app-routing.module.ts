@@ -29,7 +29,9 @@ import { PaymentDetailsComponent } from './components/subscription/payment-detai
 import { SuccessfullyComponent } from './components/subscription/successfully/successfully.component';
 
 import { RegisterComponent } from './components/auth/register/register.component';
+import { VerifyEmailComponent } from './components/auth/verify-email/verify-email.component';
 
+import { AccountOptionsComponent } from './components/account-options/account-options.component';
 
 
 const routes: Routes = [
@@ -43,9 +45,10 @@ const routes: Routes = [
   { path: '', component: AuthComponent},
   { path: '', component: RegisterComponent},
   { path: 'activation', component: AccountActivationComponent},
+  { path: 'verifyemail', component: VerifyEmailComponent},
   { path: 'login', component: LoginComponent},
   { path: 'otp', component: OtpComponent},
-  { path: 'password', component: ChangepasswordComponent},
+  { path: 'change_password', component: ChangepasswordComponent},
 
   { path: 'payment-details', component: PaymentDetailsComponent},
   { path: 'confirm-payment', component: ConfirmPaymentComponent},
@@ -67,6 +70,9 @@ const routes: Routes = [
   { path: 'mpesa', component: MpesaComponent},
   { path: 'subscription', component: SubscriptionComponent},
   { path: 'support', component: SupportComponent},
+  { path: 'account_options', component: AccountOptionsComponent},
+
+
 
     
   { path: 'side', component: SidebarComponent},

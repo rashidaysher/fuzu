@@ -1,0 +1,19 @@
+.container{
+    padding-top: 50px;
+    justify-content:center;
+    margin: 0 auto;
+    float: none;
+    height: 360px;
+    width:320px;
+    background-color:#ffffff;
+    margin-left:190px;
+}
+
+.card{
+    color:#004763;
+    margin-right: 0 auto;
+    height: 380px;
+    width:350px;
+    background-color:#ffffff;
+
+}

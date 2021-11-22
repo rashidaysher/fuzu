@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthComponent } from './components/auth/auth.component';
@@ -37,6 +38,7 @@ import { PaymentDetails2Component } from './components/subscription/payment-deta
 
 import { ChangepasswordComponent } from './components/auth/changepassword/changepassword.component';
 import { OtpComponent } from './components/auth/otp/otp.component';
+import { AccountOptionsComponent } from './components/account-options/account-options.component';
 
 
 @NgModule({
@@ -75,13 +77,17 @@ import { OtpComponent } from './components/auth/otp/otp.component';
 
     ChangepasswordComponent,
     OtpComponent,
+    AccountOptionsComponent,
 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule, 
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
